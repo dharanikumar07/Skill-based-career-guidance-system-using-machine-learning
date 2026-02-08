@@ -7,8 +7,18 @@ from dotenv import load_dotenv
 
 load_dotenv() #load all the environment variables
 
-# access the api key
-genai.configure(api_key = os.getenv('GOOGLE_API_KEY'))
+# access the api key - supports both Streamlit Cloud secrets and local .env
+try:
+    # Try Streamlit secrets first (for cloud deployment)
+    api_key = st.secrets.get('GOOGLE_API_KEY')
+except:
+    # Fallback to environment variable (for local development)
+    api_key = os.getenv('GOOGLE_API_KEY')
+
+if api_key:
+    genai.configure(api_key=api_key)
+else:
+    st.error("⚠️ API key not found! Please configure GOOGLE_API_KEY in Streamlit secrets or .env file")
 
 
 ## Gemini Pro Response
