@@ -91,7 +91,7 @@ streamlit run app1.py
 
 ## 🌐 Live URLs
 
-- **Frontend**: Deployed on Vercel
+- **Frontend**: https://skill-based-career-guidance-system.vercel.app/
 - **Course Recommender**: https://skill-based-career-guidance-system-using-machine-learning-qyhe.streamlit.app/
 - **Skill Recommender**: https://skill-based-career-guidance-system-using-machine-learning-wrlk.streamlit.app/
 - **Resume Analyzer**: https://skill-based-career-guidance-system-using-machine-learning-9uax.streamlit.app/

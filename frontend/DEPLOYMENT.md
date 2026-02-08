@@ -172,14 +172,12 @@ For Resume Analyzer (module_3):
 
 ---
 
-## 🌐 Your Final URLs
+## 🌐 Live URLs
 
-After deployment, you'll have:
-
-- **Frontend**: `https://your-project.vercel.app`
-- **Course Recommender**: `https://your-course-recommender.streamlit.app`
-- **Skill Recommender**: `https://your-skill-recommender.streamlit.app`
-- **Resume Analyzer**: `https://your-resume-analyzer.streamlit.app`
+- **Frontend**: https://skill-based-career-guidance-system.vercel.app/
+- **Course Recommender**: https://skill-based-career-guidance-system-using-machine-learning-qyhe.streamlit.app/
+- **Skill Recommender**: https://skill-based-career-guidance-system-using-machine-learning-wrlk.streamlit.app/
+- **Resume Analyzer**: https://skill-based-career-guidance-system-using-machine-learning-9uax.streamlit.app/
 
 ---
 
